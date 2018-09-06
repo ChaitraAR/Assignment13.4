@@ -1,0 +1,13 @@
+4. Return the first name, last name and city of all customers who live in Canada. Order the re-
+sults first by the last then by the first name.
+Ans:
+Select fname,lname,city from table1;
+where country='Canada';
+ORDER BY last_name;
+ORDER BY first_name;
+
+5. How many customers are from Brazil??
+Ans:
+Select first_name,last_name,city from table1;
+where country='Brazil';
+
